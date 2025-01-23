@@ -49,7 +49,7 @@ This module depends on
 "Open and Extensible LGPLv3 Deep Packet Inspection Library."  Their [GitHub repository](https://github.com/ntop/nDPI) is used as a submodule of this repository.  You must clone this repository with a command like:
 
 ```
-  git clone --recurse-submodules https://github.com/TechTeamCR/ndpi-netfilter
+  git clone --branch kernel_6.1 --recurse-submodules https://github.com/spanchy/ndpi-netfilter
 ```
 
 With that done, go to where you cloned the code and do:
