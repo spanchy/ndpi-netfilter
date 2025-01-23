@@ -31,18 +31,13 @@ You _will_ need kernal headers and some other packages to build and
 install this module.
 
 ```
-  apt-get install -y libtool
-  apt-get install -y pkg-config
-  apt-get install -y libpcap-dev
-  apt-get install -y libxtables-dev
-  apt-get install -y libip6tc-dev
-  apt-get install -y libip4tc-dev
-  apt-get install -y libjson-c-dev
-  apt-get install -y linux-source linux-headers-`uname -r`
+  apt-get install -y libtool pkg-config libpcap-dev libxtables-dev libip6tc-dev \
+  libip4tc-dev libjson-c-dev linux-source linux-headers-`uname -r`
+  # maybe your need
   ln -s /usr/src/linux-headers-`uname -r` /lib/modules/`uname -r`/build
 ```
 
-# nDPI
+# nDPI (version 3.4)
 
 This module depends on
 [nDPI](https://www.ntop.org/products/deep-packet-inspection/ndpi/),
